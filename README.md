@@ -39,14 +39,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Deploy publicly (free, ~5 minutes)
-
-1. Create a public GitHub repo and upload `app.py`, `mentions.csv`,
-   `requirements.txt` (and optionally this README + `generate_data.py`).
-2. Go to **share.streamlit.io** → sign in with GitHub → *Create app*.
-3. Select the repo, branch `main`, main file `app.py` → **Deploy**.
-4. You get a public URL like `https://<app-name>.streamlit.app` to submit.
-
 ## Files
 
 - `app.py` — the Streamlit monitoring app
